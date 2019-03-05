@@ -22,4 +22,4 @@ foreach ($user in $users) {
 
 Remove-Item "tempfile.csv"
 
-$arrForLic | Set-Content "usersO365Lic.csv"
+$arrForLic | Set-Content "usersO365.csv"
